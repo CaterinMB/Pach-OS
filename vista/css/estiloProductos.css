@@ -1,0 +1,160 @@
+table{
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+th{
+    border: solid 2px #000000;
+    width: 225px;
+    height: 30px;
+    border-color: #000000;
+    border-width: 1px;
+    background-color: #FFFFC3;
+}
+
+td{
+    border: solid 2px #000000;
+    height: 30px;
+    border-color: #000000;
+    border-width: 1px;
+    background-color: #FFFFFF;
+}
+
+/* FORMULARIO */
+
+fieldset{
+    width: 35%;
+    border-radius: 20px;
+    border: #000000 solid 1px;
+    box-shadow: 0px 4px 4px #000000;
+}
+.mostrar{
+    text-align: center;    
+}
+.mostrar h2,
+.mostrar a,
+.mostrar input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+fieldset, input{
+    margin-bottom: 5px;
+}
+
+.registrarUsuario{
+    margin-top: 20px;
+    font-size: 18px;
+}
+#ventana-emergenteR{
+    position: fixed;
+    top: 8%;
+    left: 25%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DETALLES */
+#ventana-emergenteI{
+    position: fixed;
+    top: 0;
+    left: 45%;
+    width: 500px;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ACTUALIZAR */
+#ventana-emergenteA{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ELIMINAR */
+#ventana-emergenteD{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* VALIDACIONES */
+#validacion-Buena{
+    position: absolute;
+    width: 380px;
+    height: 255px;
+    left: 550px;
+    top: 215px;
+    background: rgba(192, 192, 192, 0.85);
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+}
+
+#validacion-Mala{
+    position: absolute;
+    width: 380px;
+    height: 255px;
+    left: 550px;
+    top: 215px;
+    background: rgba(192, 192, 192, 0.85);
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+    
+}
+
+#validacion-actualizar{
+    position: absolute;
+    width: 380px;
+    height: 255px;
+    left: 550px;
+    top: 215px;
+    background: rgba(192, 192, 192, 0.85);
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+}
+
+#validacion-Buena, #validacion-Mala, #validacion-actualizar * {
+    margin: 0%;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+#validacion-Buena, #validacion-Mala, #validacion-actualizar h3{
+    padding-top: 40px;
+}
+
+.validacion-img{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    padding-top: 50px;
+
+}
+
+/* LISTADO */
+.listadoP {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}

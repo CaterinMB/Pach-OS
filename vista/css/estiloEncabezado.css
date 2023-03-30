@@ -1,0 +1,95 @@
+body{
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-columns: 18% 82%;
+    
+
+}
+
+nav{
+    background-color: #3C241C;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav h1{
+    font-size: 24px;
+    text-align: center;
+}
+
+nav, button, a{
+    font-size: 14px;
+    color: #fff;
+    
+
+}
+
+nav a {
+    text-decoration: none;
+    padding-top: 40px;
+    
+}
+
+nav .bton-cerrarSesion{
+    position: absolute;
+    background-color: #543C33;
+    bottom: 0%;
+    border: none;
+    height: 50px;
+    text-align: justify;
+    width: 18%;
+    
+}
+
+section{
+    background-color: #F7F6F6;
+}
+
+.encabezado{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+}
+
+.perfil{
+    margin-left: auto;
+}
+
+.bton-registrar{
+    box-sizing: border-box;
+    color: #Ffffff;    
+    height: 30px;
+    width: 160px;
+
+    /* OrangeStyle  */
+
+    background: linear-gradient(180deg, #FF9200 2.08%, #8D5F20 100%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin: 20px 0 0 30px;
+}
+
+.contenido-Modulos{
+    background-color: #fff;
+    height: 83%;
+    width: 96%;
+    margin: 30px 0 0 30px;
+    border-radius: 20px;
+}
+
+#contenido-ventana {
+    background-color: white;
+    /* width: 400px; */
+    height: 100%;
+    /* padding: 20px; */
+}
+
+.iconos{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

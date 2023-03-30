@@ -1,0 +1,302 @@
+.contenedorVentas{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: space-around;
+    height: 700px;
+    width: 96%;
+    margin: 30px 0 0 30px;
+    border-radius: 20px;
+    
+}
+
+.acciones{
+    margin: 15px;
+    width: 200px;
+    height: 125px;
+    background-color: #E6E6E6;
+    border-radius: 20px;
+    border-bottom: #000000 solid 1px;
+    border-left: #000000 solid 1px;
+    border-right: #000000 solid 1px;
+    
+    
+}
+.acciones .contenidoVenta{
+    text-align: center;
+    border-top: #000000 solid 1px;
+    border-bottom: #000000 solid 1px;
+    height : 90px;
+    color: #fff;
+    
+    
+}
+.contenidoVenta{
+    background-image: url("../img/Pizza.PNG");
+    
+    /* filter: contrast() brightness(0.5); */
+    border-radius: 20px;
+    background-size: cover;
+}
+
+#ventana-emergente {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    top: 0;
+    width: 30%px;
+    border-radius: 20px;
+    border: #000000 solid 1px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.header-registrar-venta{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 90% 10%
+}
+
+.bton_accionesRegiVenta{
+    background-color: white;
+    border: none;
+}
+
+.contenidoVenta .infoVenta {
+    color: #fff;
+    height: 10px;
+}
+.contenidoVenta .id_usuario {
+    text-align: left;
+    padding-left: 10px;
+    
+}
+.acciones, .btn_acciones{
+    text-align: center;
+}
+
+.idventa{
+    padding-left: 20px;
+    width: 210px;
+    
+    
+}
+.cerrarVentana{
+    margin-left: 70px;
+    text-align: end;
+}
+
+
+.accionesVentas{
+    margin-left: 300px;
+    display: flex;
+}
+
+.accionesVentas .btones-acciones{
+    width: 15px;
+    border: none;
+}
+
+.contenedorPrincipal{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.categoria{
+    height: 35px;
+    padding: 4px 8px 4px 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 20px;
+    font-size: 14px;
+    
+}
+
+.CtnorlistaProductos{
+    
+    display: grid;
+    grid-template-columns: 100px 175px 60px 110px;
+    justify-content: center;
+}
+
+
+.productoVentas{
+    padding: 4px 8px 4px 8px;
+    border: 1px solid #000000;
+    color: #c0c0c0;
+    height: 24px;
+    border-radius: 20px;
+    font-size: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+.cantidad_ventas{
+    width: 30px;
+    padding: 4px 8px 4px 8px;
+    border: 1px solid #000000;
+    color: #c0c0c0;
+    height: 24px;
+    border-radius: 20px;
+    font-size: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+.cantidad{
+    padding-left: 16px;
+}
+
+.quitarMargin{
+    margin: 10px 0 0 0;
+    
+}
+
+.precio{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.contenedortodo{
+    margin-top: 10px;
+    display: grid;  
+    grid-template-columns: 50% 50%;  
+}
+
+.alinearDerecha{
+    justify-self: end;
+}
+
+
+
+.infoVenta{
+    text-align: center;
+    padding: 0%;
+}
+.tipoPago{
+    width: 130px;
+}
+.pago{
+    width: 150px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+.contenedortodo div {
+    height: 15px;
+}
+
+.bton-registrar{
+    align-items: center;
+}
+
+/* Ventana Para personalizar pizzas */
+
+#ventanaPizzasPersonalizadas{
+    position: fixed;
+    top: 0;
+    /* left: 20%; */
+    margin-right: 100px;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerPizzasPer{
+    display: grid;
+    grid-template-columns: 170px 20px 150px 50px;
+}
+
+.headerPizzasPer .nombrePizza{
+    width: 150px;
+    
+    text-align: center;
+}
+.contenidoPizzasPer{
+    background-color: #ffffff;
+    border: #000000 solid 1px;
+    padding-inline-start: 0%;
+}
+
+.btones{
+    color: none;
+    
+}
+
+#validacion-Mala{
+    position: absolute;
+    width: 380px;
+    height: 255px;
+    left: 550px;
+    top: 215px;
+    background: rgba(192, 192, 192, 0.85);
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+    
+}
+
+#validacion-Buena{
+    position: absolute;
+    width: 380px;
+    height: 255px;
+    left: 550px;
+    top: 215px;
+    background: rgba(192, 192, 192, 0.85);
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+}
+#validacion-actualizar{
+    position: absolute;
+    width: 380px;
+    height: 255px;
+    left: 550px;
+    top: 215px;
+    background: rgba(192, 192, 192, 0.85);
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+}
+
+#validacion-Buena, #validacion-Mala * {
+    margin: 0%;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+#validacion-Buena, #validacion-Mala h3{
+    padding-top: 40px;
+}
+
+.header-registrar-venta{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 90% 10%
+}
+
+
+
+.iconos-accionesVenta{
+    background-color: white;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+
+.validacion-img{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    padding-top: 50px;
+
+}

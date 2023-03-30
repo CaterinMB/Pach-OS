@@ -1,0 +1,215 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+}
+
+.calendar{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+    color: #000000;
+}
+
+.basura{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;    
+}
+
+.carta-informe-estilo{
+    width: 209px;
+    height: 68px;
+    border-radius: 20px;
+    margin: 50px 0 0 40px;
+    background-color: #F3F1ED;
+    color: #000;
+}
+
+.imagen-grafica{
+    position: absolute;
+    left: 390px;
+    top: 300px;
+    width: 700px;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.posicion-abajo-informe-estado{
+    position: absolute;
+    left: 500px;
+    bottom: 40px;
+    border-radius: 20px;
+}
+
+.posicion-abajo-informe-costos{
+    position: absolute;
+    left: 750px;
+    bottom: 40px;
+    border-radius: 20px;
+}
+
+.foto-coso {
+    position: absolute;
+    height: 600px;
+    left: 1290px;
+    top: 200px;
+}
+
+/* Costos y estado de resultados*/
+
+.imagen-grafica-costos{
+    position: absolute;
+    left: 390px;
+    top: 400px;
+    width: 700px;
+    height: 20%;
+    
+}
+
+.poput{
+    width: 400px;
+    background-color: #D9D9D9;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+.open-poput{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%)scale(1);
+}
+.poput img{
+    top: 50%;
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.poput h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+
+}
+.poput button{
+    width: 30%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: radial-gradient(50% 50% at 50% 50%, #FFA834 30.73%, #CD7500 100%);
+    color: black;
+    border: 1px solid #000000;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    left: 35%;
+    top: 60%;
+}
+.poput2{
+    width: 400px;
+    background-color: #D9D9D9;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+.open-poput2{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%)scale(1);
+}
+.poput2 img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.poput2 h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+
+}
+.poput2 button{
+    width: 30%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: radial-gradient(50% 50% at 50% 50%, #FFA834 30.73%, #CD7500 100%);
+    color: black;
+    border: 1px solid #000000;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    left: 35%;
+    top: 60%;
+}
+.poput3{
+    width: 400px;
+    background-color: #D9D9D9;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+.open-poputError{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%)scale(1);
+}
+.poput3 img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.si{
+    width: 80px;
+    box-sizing: border-box;
+    position: absolute;
+    height: 50px;
+    left: 123px;
+    right: 698px;
+    top: calc(5% - 20px/2 + 122px);
+    background: #0ACC12;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.no{
+    width: 80px;
+    box-sizing: border-box;
+    position: absolute;
+    height: 50px;
+    left: 295px;
+    right: 896px;
+    top: calc(5% - 20px/2 + 122px);
+    background: #FF0000;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    cursor: pointer;
+}
